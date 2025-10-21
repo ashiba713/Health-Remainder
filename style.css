@@ -1,0 +1,65 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  margin-top: 20px;
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+input, button, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background-color: #A8E6CF;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li.Water { background-color: #A8E6CF; }
+li.Exercise { background-color: #FFD3B6; }
+li.Medicine { background-color: #FFAAA5; }
+button.deleteBtn {
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
